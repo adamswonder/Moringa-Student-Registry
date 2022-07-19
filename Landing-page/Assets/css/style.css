@@ -1,0 +1,41 @@
+.nav_container{
+    padding-top: 40;
+}
+.nav_components ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 2px solid;
+}
+.ifont{
+    font-size: 25px;
+    color: rgb(35, 35, 71);
+    /* border: solid; */
+}
+.nav_components a:hover{
+    font-size: 40px;
+    color: orange;
+}
+.profilelogo{
+    /* border: solid; */
+    padding: 5px;
+    
+}
+.circle{
+    height: 120px;
+  width: 120px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -45;
+}
+.title{
+    text-align: center;
+    font-size: 35;
+  /* font-family: i; */
+ }
+.image{
+    display: inline;
+    justify-content: space-between;
+    padding: 90px;
+}

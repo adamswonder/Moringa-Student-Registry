@@ -102,8 +102,83 @@ input{
         }
     }
     .img1 img{
-        
+        width: 80px;
+        height: 30vh;
+        /* padding-top: 100px; */
+        margin-left: 100px;
+        padding-top: 15px;
     }
-
-
+    .head{
+        font-family: poppins;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    #mail{
+        font-weight: bold;
+        font-family: poppins;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #mail-1{
+        background-color: ffffff;
+        width: 100px;
+        height: 10px;
+        box-shadow: #043133 0px 1px 2px 0px, #043133 0px 1px 3px 1px;
+    
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+    #pass{
+        font-weight: bold;
+        font-family: poppins;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #pass-1{
+        background-color: ffffff;
+        width: 130px;
+        height: 15px;
+        box-shadow: #043133 0px 1px 2px 0px, #043133 0px 1px 3px 1px;
+    
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+    .btn{
+        border: none;
+        border-radius: 8px;
+        background-color: #F58449;
+        color: white;
+        height: 30px;
+        width: 50px;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 10px;
+    }
+    #forgot{
+        /* margin-left: 125px; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 8px;
+        padding-left: 0;
+        width: 3px;
+        display: flex;
+        justify-content: center;
+    }
+    #or{
+        /* margin-left: 180px; */
+        margin-bottom: 10px;
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+    }
+    #log{
+        margin-left: 125px;
+        background-color: white;
+        border-radius: 1px;
+        height: 15px;
+        width: 30px;
+    }
     

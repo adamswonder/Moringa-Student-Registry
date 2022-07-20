@@ -49,16 +49,19 @@
   /* padding-bottom: -120px; */
   border-radius: 50%;
   /* background-color: rgb(219, 28, 28); */
+  align-items: center;
 }
 .image1 img {
   padding-top: 20%;
   height: 120px;
   padding-left: 17%;
+  align-items: center;
 }
 .image2 img {
   padding-top: 20%;
   height: 120px;
   padding-left: 23%;
+  align-items: center;
 }
 .image3 img {
   padding-top: 55;
@@ -101,35 +104,35 @@
     margin: 0px;
     font size: small;
 } */
-/* @media screen (max-width 350px) {
-    width: 
-  } */
+
 
   /* MEDIA QUERIES FOR SCREENS OF 380PX AND UNDER */
-  @media screen {
+  /* @media screen (max-width:420px) {
     .nav_container moringalogo{
 width: 40px;
-display: block;
-    }
-    /* i.nav_container{
-
-    } */
+display:block;
+   
     .nav_components{
-        /* font-size: 1px; */
-
-    display: block;
+        font-size: 1px;
+     display: block;
     }
-    *{font-size: 2mm;}
-    .last strong{font-size: 3mm;
-    font-weight: 1%;}
+    *{
+      font-size: 2mm;
+    }
+    .last strong{
+      font-size: 3mm;
+    font-weight: 1%;
+    }
     .last img{
     width: 50px;
     margin: 0px;
     padding: 0px;
     display: flex;
-    padding-left: ;
     }
     .title{
         align-content: flex-start;
     }
-  }
+    .ifont{
+      font-size: 2px;
+    }
+   } */

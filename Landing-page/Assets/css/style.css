@@ -1,41 +1,135 @@
-.nav_container{
-    padding-top: 40;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  font-family: "Nunito";
 }
-.nav_components ul{
-    list-style: none;
-    display: flex;
-    justify-content:space-between;
-    border-bottom: 2px solid;
+.nav_container {
+  padding-top: 40;
 }
-.ifont{
-    font-size: 25px;
-    color: rgb(35, 35, 71);
-    /* border: solid; */
+.nav_components ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
 }
-.nav_components a:hover{
-    font-size: 40px;
-    color: orange;
+.ifont {
+  font-size: 25px;
+  color: #043133;
+  /* border: solid; */
 }
-.profilelogo{
-    /* border: solid; */
-    padding: 5px;
-    
+.nav_components a {
+    text-decoration: none;
 }
-.circle{
-    height: 120px;
-  width: 120px;
-  background-color: orange;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: -45;
+.nav_components a:hover {
+  font-size: 40px;
+  color: yellowgreen;
 }
-.title{
-    text-align: center;
-    font-size: 35;
+.profilelogo {
+  /* border: solid; */
+  padding: 10;
+}
+.title {
+  text-align: center;
+  font-size: 35;
+  margin-bottom: 120;
   /* font-family: i; */
- }
-.image{
-    display: inline;
-    justify-content: space-between;
-    padding: 90px;
 }
+.Mid-body {
+  display: flex;
+  justify-content: space-around;
+
+  /* background-color: rgb(252, 245, 245); */
+}
+.image1,
+.image2,
+.image3 {
+  border: solid #fa510f 20px;
+  width: 200px;
+  height: 200px;
+  /* padding-bottom: -120px; */
+  border-radius: 50%;
+  /* background-color: rgb(219, 28, 28); */
+}
+.image1 img {
+  padding-top: 20%;
+  height: 120px;
+  padding-left: 17%;
+}
+.image2 img {
+  padding-top: 20%;
+  height: 120px;
+  padding-left: 23%;
+}
+.image3 img {
+  padding-top: 55;
+  border-radius: 50px;
+  height: 120px;
+  padding-left: 6%;
+  @media  add (max-width 350px) {
+    width: 10px;
+  }
+}
+
+.bottom {
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 0px;
+  padding: 80px;
+  display: flex;
+  padding-top: 40px;
+  background-color: #101f3c;
+  color: #fff;
+  list-style: none;
+}
+.last {
+  justify-content: space-between;
+  display: block;
+}
+.last strong {
+  font-size: 15px;
+}
+    .Mid-body{
+        display: auto;
+
+    }
+     .image{
+        height: 45px;
+        font-size: small;
+     }
+/* @media screen add  (max-width 320px){
+    padding: 0px
+    margin: 0px;
+    font size: small;
+} */
+/* @media screen (max-width 350px) {
+    width: 
+  } */
+
+  /* MEDIA QUERIES FOR SCREENS OF 380PX AND UNDER */
+  @media screen {
+    .nav_container moringalogo{
+width: 40px;
+display: block;
+    }
+    /* i.nav_container{
+
+    } */
+    .nav_components{
+        /* font-size: 1px; */
+
+    display: block;
+    }
+    *{font-size: 2mm;}
+    .last strong{font-size: 3mm;
+    font-weight: 1%;}
+    .last img{
+    width: 50px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    padding-left: ;
+    }
+    .title{
+        align-content: flex-start;
+    }
+  }

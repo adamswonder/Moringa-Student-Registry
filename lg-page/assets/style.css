@@ -1,0 +1,73 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+.registry{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.head{
+    font-family: poppins;
+    font-size: 60px;
+}
+.img1 img{
+    width: 350px;
+    height: 50vh;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.m1{
+    padding-left: 50px;
+}
+#mail{
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 17px;
+}
+#pass{
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 17px;
+}
+#mail-1{
+    background-color: ffffff;
+    width: 500px;
+    height: 50px;
+    box-shadow: 2px 2px 18px 1px #888888;
+    margin-bottom: 50px;
+}
+#pass-1{
+    background-color: ffffff;
+    width: 500px;
+    height: 50px;
+    box-shadow: 2px 2px 18px 1px #888888;
+}
+.btn{
+    border: none;
+    border-radius: 25px;
+    background-color: #F58449;
+    color: white;
+    height: 50px;
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#forgot{
+    margin-left: 125px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#or{
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+#log{
+    margin-left: 125px;
+    background-color: white;
+    border-radius: 1px;
+    height: 50px;
+    width: 200px;
+}

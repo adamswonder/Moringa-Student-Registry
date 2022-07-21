@@ -18,7 +18,7 @@
   /* border: solid; */
 }
 .nav_components a {
-    text-decoration: none;
+  text-decoration: none;
 }
 .nav_components a:hover {
   font-size: 40px;
@@ -68,7 +68,7 @@
   border-radius: 50px;
   height: 120px;
   padding-left: 6%;
-  @media  add (max-width 350px) {
+  @media add (max-width 350px) {
     width: 10px;
   }
 }
@@ -91,48 +91,126 @@
 .last strong {
   font-size: 15px;
 }
-    .Mid-body{
-        display: auto;
+.Mid-body {
+  display: auto;
+}
+.image {
+  height: 45px;
+  font-size: small;
+}
+/* @media screen and (max-device-width: 360px) {
+  .nav_container {
+    display: block;
+    border: solid 1px black;
+    list-style: none;
+  }
+  .nav_components ul {
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+  }
+  .nav_container ul strong {
+    text-decoration-style: none;
+    border: solid blue 1px;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+  .nav_container ul i {
+    margin-left: 200px;
+    border: solid 2px rgb(255, 153, 0);
+    border-radius: 50%;
+    padding: 20px 15px 20px 15px;
+    background: paleturquoise;
+    margin-top: 5px;
+  }
+  .moringalogo {
+    border: solid;
+    align-items: center;
+    /* padding-left: 30px; */
+    /* margin-left: 30px;
+  }
 
-    }
-     .image{
-        height: 45px;
-        font-size: small;
-     }
-/* @media screen add  (max-width 320px){
-    padding: 0px
-    margin: 0px;
-    font size: small;
+  * {
+    margin-right: 10px;
+  }
+  .title {
+    align-content: center;
+  }
+
+  .image1,
+  .image2,
+  .image3 {
+    margin-left: 43px;
+    margin-top: 5px;
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
+    border: solid;
+    background-color: #fa510f;
+    border-radius: 50%;
+  }
+  .Mid-body img {
+    padding-left: 25px;
+  } */ */
+  /* .image1 strong{
+border: solid rgb(66, 173, 164) 3px;
+margin-left: 72px;
+
+font-size: 25px;
+color: white;
+} */
+  /* 
+.image2{
+    margin-left: 43px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 250px;
+    height: 250px;
+    border: solid ;
+    background-color: #fa510f;
+    border-radius: 50%;
+} */
+  /* 
+.image2 strong{
+border: solid rgb(66, 173, 164) 3px;
+margin-left: 50px;
+margin-top: 50px;
+font-size: 25px;
+color: black;
 } */
 
-
-  /* MEDIA QUERIES FOR SCREENS OF 380PX AND UNDER */
-  /* @media screen (max-width:420px) {
-    .nav_container moringalogo{
-width: 40px;
-display:block;
-   
-    .nav_components{
-        font-size: 1px;
-     display: block;
-    }
-    *{
-      font-size: 2mm;
-    }
-    .last strong{
-      font-size: 3mm;
-    font-weight: 1%;
-    }
-    .last img{
-    width: 50px;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    }
-    .title{
-        align-content: flex-start;
-    }
-    .ifont{
-      font-size: 2px;
-    }
-   } */
+  /* .image3{
+    margin-left: 43px;
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
+    border: solid ;
+    background-color: #fa510f;
+    border-radius: 50%;
+} */
+  /* 
+.image3 strong{
+border: solid rgb(66, 173, 164) 3px;
+margin-left: 55px;
+font-size: 25px;
+color: black;
+margin-top:100px ;
+padding-top: -50px;
+padding-bottom: 50px;
+} */
+  /* .bottom {
+    display: block;
+    background-color: blue;
+    margin-bottom: 250px;
+  }
+  .last img {
+    width: 200px;
+    height: 70px;
+  }
+  .last iframe {
+    width: 250px;
+    margin-left: 30px;
+  }
+} */

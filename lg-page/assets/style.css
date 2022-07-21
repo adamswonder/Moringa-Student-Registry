@@ -12,18 +12,19 @@
 }
 .head{
     font-family: poppins;
-    font-size: 35px;
-    padding-bottom: 20px;
+    font-size: 33px;
+    padding-bottom: 10px;
 }
 .img1 img{
-    width: 450px;
-    height: 50vh;
+    width: 380px;
+    height: 48vh;
     /* padding-top: 100px; */
-    margin-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .m1{
     padding-left: 50px;
-    margin-right: 100px;
+    /* margin-right: 50px; */
 }
 form > p{
     font-size: 30px;
@@ -31,27 +32,29 @@ form > p{
     /* height: 35px; */
 }
 #mail{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: poppins;
     font-size: 20px;
 }
 #pass{
-    font-weight: bold;
+    /* font-weight: bold; */
     font-family: poppins;
     font-size: 20px;
 }
 #mail-1{
-    background-color: ffffff;
-    width: 500px;
-    height: 50px;
+    /* background-color: ffffff; */
+    width: 400px;
+    height: 40px;
+    border: none;
     box-shadow: #043133 0px 1px 2px 0px, #043133 0px 1px 3px 1px;
 
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 #pass-1{
     background-color: ffffff;
-    width: 500px;
-    height: 50px;
+    width: 400px;
+    height: 40px;
+    border: none;
     box-shadow: #043133 0px 1px 2px 0px, #043133 0px 1px 3px 1px;
 }
 input{
@@ -64,9 +67,10 @@ input{
     border-radius: 8px;
     background-color: #F58449;
     color: white;
-    height: 50px;
-    width: 350px;
-    margin-left: 100px;
+    height: 60px;
+    width: 270px;
+    align-items: center;
+    margin-left: 70px;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: large;
@@ -75,11 +79,13 @@ input{
     /* margin-left: 125px; */
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 0;
-    width: 5o0px;
     display: flex;
     justify-content: center;
+}
+#forgot a:hover{
+    color: #F58449;
 }
 #or{
     /* margin-left: 180px; */

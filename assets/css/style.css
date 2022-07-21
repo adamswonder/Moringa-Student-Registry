@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: poppins;
+	color: #043133;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	margin: 100px;
+	padding: 0 40px;
+	justify-content: space-between;
+}
+.logo img{
+	height: 50vh;
+	width: 350px;
+}
+.form{
+	width: 400px;
+	padding: auto;
+}
+form > h2{
+	font-size: 31px;
+	padding-bottom: 20px;
+}
+form > p{
+	font-size: 20px;
+	/* padding: auto; */
+	margin: 5px 0 5px 0;
+}
+input{
+	border: none;
+	background-color: #EFF0F2;
+	width:100%;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow:#043133 0px 1px 2px 0px, #043133 0px 1px 3px 1px;
+}
+a{
+	color:#F58449;
+}
+.btn-sign-up{
+	background-color: #F58449;
+	padding: 15px;
+	border: none;
+	border-radius: 8px;
+	width: 250px;
+	color:white;
+	font-size: large;
+}
+button{
+	margin: 20px auto 20px auto;
+	display: flex;
+	justify-content: center;
+}
+button:hover{
+	cursor: pointer;
+}
+.already{
+	font-size: 17px;
+	/* margin: 0 auto 0 auto; */
+	/* margin: 20px auto 20px auto; */
+	display: flex;
+	justify-content: center;
+}
+.or{
+	display: flex;
+	justify-content: center;
+	margin-top: 18px;
+}
+
+span{
+	padding-left: 8px;
+}
+
+/* Media Queries */
+@media screen and (min-device-width:320px) and (max-device-width:480px){
+	.container{
+		display: block;
+		max-width: 375px;
+		margin:20px;
+		align-content: center;
+	}
+	.logo>img{
+		width:100%;
+		align-items: center;
+		margin-bottom: 20px;
+
+	}
+	form{
+		max-width: 300px;
+	}
+	form p{
+		font-size: 15px;
+	}
+	form h2{
+		font-size: 22px;
+	}
+	input{
+		width: 250px;
+	}
+	.btn-sign-up{
+		width: 150px;
+		font-size: 15px;
+		align-items: center;
+
+	}
+}
+
+/* max-width 768px breakpoint */
+@media screen and (min-device-width:481px) and (max-device-width:768px){
+	.container{
+		display: block;
+		max-width: 768px;
+		margin:20px;
+		align-content: center;
+	}
+	.logo>img{
+		width:100%;
+		align-items: center;
+		margin-bottom: 20px;
+
+	}
+	form{
+		max-width: 750px;
+	}
+	form p{
+		font-size: 25px;
+	}
+	form h2{
+		font-size: 30px;
+	}
+	input{
+		max-width:90vw;
+	}
+	.btn-sign-up{
+		width: 250px;
+		font-size: 20px;
+		align-items: center;
+
+	}
+}
+
+/* max-width 1024px breakpoint */
+@media screen and (min-device-width:769px) and (max-device-width:1024px){
+	.container{
+		display: block;
+		max-width: 1000px;
+		margin:20px;
+		align-content: center;
+	}
+	.logo>img{
+		width:100%;
+		align-items: center;
+		margin-bottom: 20px;
+
+	}
+	form{
+		max-width: 750px;
+		align-items: center;
+		margin: 0 auto 0 auto;
+	}
+	form p{
+		font-size: 25px;
+	}
+	form h2{
+		font-size: 30px;
+	}
+	input{
+		max-width:90vw;
+	}
+	.btn-sign-up{
+		width: 250px;
+		font-size: 20px;
+		align-items: center;
+
+	}
+}

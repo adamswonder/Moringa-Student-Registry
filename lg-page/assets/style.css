@@ -96,13 +96,13 @@ input{
     width: 200px;
 }
 /* @media screen { */
-    @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px){
         .registry{
             display: inline-block;
         }
-    }
+    
     .img1 img{
-        width: 30px;
+        width: 150px;
         height: 15vh;
         /* padding-top: 100px; */
         margin-left: 70px;
@@ -111,14 +111,15 @@ input{
     }
     .head{
         font-family: poppins;
-        font-size: 10px;
+        font-size: 12px;
         padding-bottom: 20px;
         padding-left: 10px;
+        margin-left: -1px;
     }
     #mail{
         font-weight: bold;
         font-family: poppins;
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -133,12 +134,12 @@ input{
         padding-left: 10px;
         padding-right: 50px;
         margin-left: 5px;
-        margin-right: -100px;
+        margin-right: -1050px;
     }
     #pass{
         font-weight: bold;
         font-family: poppins;
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 1px;
         padding-right: 1px;
         
@@ -154,7 +155,7 @@ input{
         padding-left: 10px;
         padding-right: 50px;
         margin-left: 5px;
-        margin-right: -100px;
+        margin-right: -1050px;
         
     }
     .btn{
@@ -163,9 +164,9 @@ input{
         background-color: #F58449;
         color: white;
         height: 30px;
-        width: 50px;
+        width: 70px;
         margin-left: 30px;
-        margin-top: 15px;
+        /* margin-top: 15px; */
         margin-bottom: 15px;
         font-size: 10px;
     }
@@ -173,12 +174,14 @@ input{
         /* margin-left: 125px; */
         margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: 30px;
         font-size: 7px;
         /* padding-left: 0; */
-        width: 3px;
+        width: 60px;
         display: flex;
         justify-content: center;
-
+        align-items: center;
+        margin-right: -1050px;
 
     }
     #or{
@@ -188,15 +191,15 @@ input{
         display: flex;
         justify-content: center;
         font-size: 10px;
-        padding-left: 5px;
+        padding-left: 25px;
         padding-right: 5px;
     }
     #log{
-        margin-left: 115px;
+        margin-left: 150px;
         background-color: white;
         border-radius: 1px;
         height: 15px;
         width: 30px;
         /* margin-bottom: -15px; */
     }
-    
+}

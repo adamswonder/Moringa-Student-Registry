@@ -1,6 +1,6 @@
 // create a container to store the checkbox status
 let userCred = document.getElementById('status');
-userCred.addEventListener('chcker', (e) => {
+userCred.addEventListener('checker', (e) => {
     e.preventDefault()
     let active = document.getElementById('checkbox').checked;
 
@@ -10,7 +10,8 @@ userCred.addEventListener('chcker', (e) => {
         header: 'application/json',
         body: JSON.stringify({ active })
     }).then(respsonse => respsonse.json()).then(data => {
-        // console.log(data)
-        document.getElementById('check-box-output').innerHTML = "Verified" + active;    
-    }).catch(err=> console.log(err))
+        window.alert('VERIFIED')
+        console.log(data)
+        // document.getElementById('check-box-output').innerHTML = "Verified" + active;
+    }).catch(err => console.log(err))
 })

@@ -8,7 +8,7 @@ window.onload = () => {
 
             const geoMoringa = [-1.3034532, 36.7927116]
             if (lati == geoMoringa[0]) {
-                window.location.href = 'assets/html/signup.html';
+                window.location.href = '/lg-page/signin.html';
             } else {
                 window.alert("Please access the site within the space perimeter!!")
             }
@@ -37,6 +37,7 @@ userCred.addEventListener('submit', (e) => {
         header: 'application/json',
         body: JSON.stringify({ fname, email, password, active })
     }).then(respsonse => respsonse.json()).then(data => {
+        window.location.href = '/lg-page/signin.html'
         console.log(data)
     }).catch(err => console.log(err))
 })

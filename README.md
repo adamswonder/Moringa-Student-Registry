@@ -47,7 +47,7 @@ This is a web based which enables students be able to log in only if their locat
 
 MIT License
 
-Copyright (c) 2022 moringawonder
+Copyright (c) 2022 adamswonder
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
